@@ -13,6 +13,11 @@ button:active{
     font-weight: 600;
 }
 
+button:focus{
+    border-width: 2pt;
+    font-weight: 550;
+}
+
 h3 {
     font-family: Quicksand;
     font-weight: bold;
