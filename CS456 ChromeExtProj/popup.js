@@ -11,15 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
         break;
       case 'protanopia':
         filterCode = 'protanopia-filter';
-        contrast = '105%';
+        contrast = '120%';
         break;
       case 'deuteranopia':
         filterCode = 'deuteranopia-filter';
-        contrast = '105%';
+        contrast = '120%';
         break;
       case 'tritanopia':
         filterCode = 'tritanopia-filter';
-        contrast = '105%';
+        contrast = '120%';
         break;
     }
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
